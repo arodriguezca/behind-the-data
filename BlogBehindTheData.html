@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Behind the Data</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+      <link rel="stylesheet" href="css/normalize.min.css">
+      <link rel="stylesheet" href="css/main.css">
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">   
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+
+    <body>
+
+    <header>
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/data.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3></h3>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/ML2.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h2></h2><br><br><br><br><br><br><br><br><br><br>
+              <h3>Behind the Data: A blog about Data Science</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Page Layout here -->
+
+    <div class="row">
+      <div class="col m12">
+
+        <div class="col m3" >
+          <div class="block">
+            <h5 class="left-align"><i class="mdi-action-list"></i>
+              List of entries
+            </h5>
+            <el>
+             <li><a href="#post1">Data Science: A New Field Emerges</a></li>
+             <li><a href="#post2">A short story about Machine Learning</a></li>
+             <li><a href="#post3">The Naive Bayes Classifier explained</a></li>
+             <li><a href="#post4">Outside In Data Governance</a></li>
+            </el> 
+          </div>
+        <hr>
+        <div class="block">
+          <h5 class="left-align"><i class="mdi-action-account-box"></i>
+            About me
+          </h5>
+          <p>My name is Alexander Rodriguez. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts. </p>
+        </div>
+        <hr>
+          <div class="block">
+            <h5 class="left-align"><i class="mdi-action-perm-phone-msg"></i>
+              Contact me
+            </h5>
+              <p><i class="mdi-maps-pin-drop indigo-text"></i> Lima, Peru<br/>
+              <i class="mdi-communication-phone indigo-text"></i> 920 000 000<br/>
+              <i class="mdi-content-link indigo-text"></i> <a href="http://www.about.me/arodriguezca" class="indigo-text" target="_blank">about.me/arodriguezca</a>
+              </p>
+          </div>
+          <hr>
+          <div class="block">
+            <h5 class="left-align"><i class="mdi-action-receipt"></i>
+              Suscribe this blog
+            </h5>
+              <p class="center-align"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1">Suscribe!</a>
+              </p>
+          </div>
+        
+        <div id="modal1" class="modal modal-fixer-footer">
+          <div class="modal-content">
+            <h4>Suscribe</h4>
+          </div>
+          <div class="modal-footer">
+            <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>  
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="phone" type="number" class="validate">
+                  <label for="phone">Phone number</label>
+                </div>
+              </div>
+            </form>
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Send</a>
+          </div>
+                  </div>
+                </div>
+
+        </div>
+
+        <div class="col m9">
+          <h4 class="left-align"><i class="mdi-action-android"></i> Blog Entries</h4>
+          <div class="block" id="post1">
+            <h5>Data Science: A New Field Emerges</h5>
+            <p class="helping-text"><i class="mdi-action-today indigo-text"></i> 21 Feb 2012</p>
+            <p>There is significant and growing demand for data-savvy professionals in businesses, public agencies, and nonprofits. The supply of professionals who can work effectively with data at scale is limited, and is reflected by rapidly rising salaries for data engineers, data scientists, statisticians, and data analysts.</p>
+            <p>A recent study by the McKinsey Global Institute concludes, "a shortage of the analytical and managerial talent necessary to make the most of Big Data is a significant and pressing challenge (for the U.S.)." The report estimates that there will be four to five million jobs in the U.S. requiring data analysis skills by 2018, and that large numbers of positions will only be filled through training or retraining. The authors also project a need for 1.5 million more managers and analysts with deep analytical and technical skills "who can ask the right questions and consume the results of analysis of big data effectively."</p>
+            <p>Our ability to derive social and economic value from the newly available data is limited by the lack of expertise. Working with this data requires distinctive new skills and tools. The corpuses are often too voluminous to fit on a single computer, to manipulate with traditional databases or statistical tools, or to represent using standard graphics software. The data is also more heterogeneous than the highly curated data of the past. Digitized text, audio, and visual content, like sensor and blog data, is typically messy, incomplete, and unstructured; it is often of uncertain provenance and quality; and frequently must be combined with other data to be useful. Working with user-generated data sets also raises challenging issues of privacy, security, and ethics.</p>
+            <p class="helping-text"><i class="mdi-action-turned-in"></i> <a href="#">Data Science</a>, <a href="#">Forecast</a>, <a href="#">Value</a></h5>
+              <div class="comment">              
+            <ul class="collapsible" data-collapsible="accordion">
+             <li>
+               <div class="collapsible-header"><i class="mdi-action-input"></i>Comments</div>
+               <div class="collapsible-body">
+                 <div class="row">
+                  <br>
+                 <div class="col s6"> 
+                  <i class="mdi-action-label-outline"></i> <b>21 Feb 2012 10:00</b><br>The corpuses are often too voluminous to fit on a single computer, to manipulate with traditional databases or statistical tools, or to represent using standard graphics software. The data is also more heterogeneous than the highly curated data of the past.<br>
+                  <i class="mdi-action-label-outline"></i> <b>22 Feb 2012 12:00</b><br>Great quote: "Our ability to derive social and economic value from the newly available data is limited by the lack of expertise."
+                 </div>
+                 <div class="col s6">
+                   <div class="input-field col s12">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea id="comment4" class="materialize-textarea" placeholder="Write your comment here."></textarea>
+                    <label for="textarea1">Your comment</label>
+                    </div>
+                  <div class="center-align">
+                    <a class="waves-effect waves-light btn">Send</a>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                 </li>
+               </ul>
+             </div>
+          </div>
+
+          <div class="block" id="post2">
+            <h5>A short story about Machine Learning</h5>
+            <p class="helping-text"><i class="mdi-action-today indigo-text"></i> 21 Feb 2012</p>
+            <p >It’s all well and good to ask if androids dream of electric sheep, but science fact has evolved to a point where it’s beginning to coincide with science fiction.  No, we don’t have autonomous androids struggling with existential crises — yet — but we are getting ever closer to what people tend to call “artificial intelligence.”</p>
+            <p>Machine Learning is a sub-set of artificial intelligence where computer algorithms are used to autonomously learn from data and information. In machine learning computers don’t have to be explicitly programmed but can change and improve their algorithms by themselves..</p>
+            <p>
+            Today, machine learning algorithms enable computers to communicate with humans, autonomously drive cars, write and publish sport match reports, and find terrorist suspects. I firmly believe machine learning will severely impact most industries and the jobs within them, which is why every manager should have at least some grasp of what machine learning is and how it is evolving.</p>
+            <p class="helping-text"><i class="mdi-action-turned-in"></i> <a href="#">Machine Learning</a>, <a href="#">History</a>, <a href="#">Artificial Intelligence</a></h5>
+              <div class="comment">              
+                <ul class="collapsible" data-collapsible="accordion">
+                 <li>
+                   <div class="collapsible-header"><i class="mdi-action-input"></i>Comments</div>
+                     <div class="collapsible-body">
+                       <div class="row">
+                        <br>
+                       <div class="col s6"> 
+                        <i class="mdi-action-label-outline"></i> <b>21 Feb 2012 10:00</b><br>I firmly believe machine learning will severely impact most industries and the jobs within them<br>
+                        <i class="mdi-action-label-outline"></i> <b>22 Feb 2012 12:00</b><br>Machine Learning is a sub-set of artificial intelligence where computer algorithms are used to autonomously learn from data and information."
+                       </div>
+                       <div class="col s6">
+                         <div class="input-field col s12">
+                          <i class="material-icons prefix">mode_edit</i>
+                          <textarea id="comment4" class="materialize-textarea" placeholder="Write your comment here."></textarea>
+                          <label for="textarea1">Your comment</label>
+                          </div>
+                        <div class="center-align">
+                          <a class="waves-effect waves-light btn">Send</a>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+             </div>
+          </div>
+
+          <div class="block" id="post3">
+            <h5>The Naive Bayes Classifier explained</h5>
+            <p class="helping-text"><i class="mdi-action-today indigo-text"></i> 21 Feb 2012</p>
+            <p >Reading the academic literature Text Analytics seems difficult. However, applying it in practice has shown us that Text Classification is much easier than it looks. Most of the Classifiers consist of only a few lines of code.In this three-part blog series we will examine the three well-known Classifiers; the Naive Bayes, Maximum Entropy and Support Vector Machines. From the introductionary blog we know that the Naive Bayes Classifier is based on the bag-of-words model.</p>
+            <p>With the bag-of-words model we check which word of the text-document appears in a positive-words-list or a negative-words-list. If the word appears in a positive-words-list the total score of the text is updated with +1 and vice versa. If at the end the total score is positive, the text is classified as positive and if it is negative, the text is classified as negative. Simple enough!</p>
+            <p>
+            With the Naive Bayes model, we do not take only a small set of positive and negative words into account, but all words the NB Classifier was trained with, i.e. all words presents in the training set. If a word has not appeared in the training set, we have no data available and apply Laplacian smoothing (use 1 instead of the conditional probability of the word).</p>
+            <p class="helping-text"><i class="mdi-action-turned-in"></i> <a href="#">Naive Bayes</a>, <a href="#">Classification</a>, <a href="#">Theory</a></h5>
+              <div class="comment">              
+            <ul class="collapsible" data-collapsible="accordion">
+             <li>
+               <div class="collapsible-header"><i class="mdi-action-input"></i>Comments</div>
+               <div class="collapsible-body">
+                <br>
+                 <div class="row">
+                 <div class="col s6"> 
+                  <i class="mdi-action-label-outline"></i> <b>21 Feb 2012 10:00</b><br>Naive Bayes Classifier is based on the bag-of-words model.<br>
+                  <i class="mdi-action-label-outline"></i> <b>22 Feb 2012 12:00</b><br>Most of the Classifiers consist of only a few lines of code.
+                 </div>
+                 <div class="col s6">
+                   <div class="input-field col s12">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea id="comment4" class="materialize-textarea" placeholder="Write your comment here."></textarea>
+                    <label for="textarea1">Your comment</label>
+                    </div>
+                  <div class="center-align">
+                    <a class="waves-effect waves-light btn">Send</a>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                 </li>
+               </ul>
+             </div>
+          </div>
+
+          <div class="block" id="post4">
+            <h5>Outside In Data Governance – A value driven approach</h5>
+            <p class="helping-text"><i class="mdi-action-today indigo-text"></i> 21 Feb 2012</p>
+            <p >We who have been in the data sphere a while and in and around Data Governance will have seen the pitch-decks, watched the webinars, read the blogs and attended the conferences.  Some of us will have hired the staff, taken sage advice from expensive consultants and kicked off programmes to get the organisation up the Data governance maturity curve. It's almost like a religion, Data Governance is so clearly the answer why can't everybody in the organisation see it? It's a no-brainer. Unfortunately and speaking as a Data Governance practitioner for far too many years I can honestly say that I have yet to see a fully functioning enterprise-wide Data Governance implementation. Look, I appreciate that could be down to my incompetence, but I know this is not an isolated or unique sentiment. Lots of peers, colleagues and people far smarter than me have been preaching the benefits of data administration, data architecture, data governance, or whatever it will be called next, for many years and yet many of them struggle to come up with success stories. In fact when pressed they often don't have any!”</p>
+            <p>What is needed is a value driven approach. Start with who are we doing a Data Governance approach for? We are doing it for the business users. Then ask what are they interested in? They are interested in something that makes their lives easier right now. So 'Outside In Data Governance' starts with a single business report and works back from there. Answer those fundamental questions (what, where, who and how good?) about the fields and outputs on the report and make that knowledge accessible. You could do this with a simple Excel based approach or maybe a Wiki or SharePoint; but pretty soon you will need some tooling to really make it scalable and responsive to increasing demands for more reports to be included in the scope. There are ways to do this in a 'proof of concept' environment and demonstrate the benefits before committing to spend. A friend of mine is fond of saying it’s easier to ask for forgiveness that for permission'. In this case he is right. There are browser based tools that sit outside your firewall and can offer this try before you buy approach. </p>
+            <p>
+            This is what a value driven and lean approach is all about. If what you do in this small scale doesn't get traction then what makes you think a £250k project will end up any better? Start small, ensure you get honest feedback from users at every iteration of your solution and focus on delivering value. If you bring the data users with you then they will demand the capability is extended. Beat the Einstein quote and start from the 'Outside In'.</p>
+            <p class="helping-text"><i class="mdi-action-turned-in"></i> <a href="#">Data Governance</a>, <a href="#">Lean</a>, <a href="#">Value-Driven</a></h5>
+
+            <div class="comment">              
+            <ul class="collapsible" data-collapsible="accordion">
+             <li>
+               <div class="collapsible-header"><i class="mdi-action-input"></i>Comments</div>
+               <div class="collapsible-body">
+                 <div class="row">
+                  <br>
+                 <div class="col s6"> 
+                  <i class="mdi-action-label-outline"></i> <b>21 Feb 2012 10:00</b><br>'Outside In Data Governance' starts with a single business report and works back from there.<br>
+                  <i class="mdi-action-label-outline"></i> <b>22 Feb 2012 12:00</b><br>Great quote: "Start small, ensure you get honest feedback from users at every iteration of your solution and focus on delivering value."
+                 </div>
+                 <div class="col s6">
+                   <div class="input-field col s12">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea id="comment4" class="materialize-textarea" placeholder="Write your comment here."></textarea>
+                    <label for="textarea1">Your comment</label>
+                    </div>
+                  <div class="center-align">
+                    <a class="waves-effect waves-light btn">Send</a>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                 </li>
+               </ul>
+             </div>
+          
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
+      <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+      <script>
+          (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+          e.src='//www.google-analytics.com/analytics.js';
+          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+          ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+      </script>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $('.materialboxed').materialbox();
+      });
+
+      $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
+    
+      $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+      $('.modal-trigger').leanModal();
+    });  
+    </script>
+
+
+
+    </body>
+  </html>
